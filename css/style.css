@@ -1,0 +1,145 @@
+body{
+    font-size: 20px;
+    background-color:#666;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.inline{
+    margin-top:15px;
+    text-align: center;
+    vertical-align:middle;
+    padding: 0 10px 0 10px;
+}
+
+
+.circle{
+    height: 65px; min-width:65px;line-height: 65px;
+    border-radius:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 17.5;
+    top: 0px;
+
+}
+
+#banner{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     z-index:999;
+    
+}
+.navbar-fixed-top{
+    z-index: -1;
+}
+
+.fun{
+    padding:20px;
+    background: #bbbbbb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fun2{
+    padding:20px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#avatar{
+    padding:0;
+    
+}
+
+#avatar>img {
+    max-height:300px;
+}
+
+#page-content-wrapper, row{
+    max-width:1024px;
+    
+    position: relative;
+    margin:auto;
+    margin-top: 90px;
+}
+
+.star{
+    color:#0b465f;
+    border-top: solid 5px;
+    margin:35px;
+}
+
+.star:after{
+    font-family: FontAwesome;
+    content:"\f121";
+    text-align:right;
+    top: -.8em;
+    position:relative;
+    font-size: 2em;
+    display: inline-block;
+    padding: 0 .25em;
+}
+
+.dark:after{
+    background-color:white;
+    
+}
+.bright, .bright:after{
+    color:#ffffff;
+}
+.bright:after{
+    background-color:#bbbbbb;
+    text-align:right;
+}
+.fa{
+    color:#0b465f;
+}
+
+.la{
+    width:50px; height:50px;
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    font-size:1.25em;
+    margin-top:7px;
+    line-height: 48px;
+    margin:5px;
+}
+.la:hover{
+    color:#08626f;
+    background-color:white;
+}
+#link-bubs{
+    padding:0;
+    margin:0;
+    display:inline-flex;
+    list-style-type: none;
+}
+
+
+footer>div>div{
+    padding:25px;
+}
+footer>div>div>div{
+    padding:5px;
+}
+
+footer>div{
+    min-height:150px;
+    background-color: #bbbbbb;
+    border-color: #e7e7e7;
+    margin-bottom:30px;
+}
+
+.sidebar-brand>a{
+    font-size:1.5em;
+    margin-left:30px;
+}
+
+img{
+    display:block;
+    margin:auto;
+}
+
+#contact{
+    margin-top:30px;
+}
+#myform{
+    text-align: left;
+}
+
